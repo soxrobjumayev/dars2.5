@@ -1,0 +1,30 @@
+.table{
+    border: 1px solid black;
+    border: spacing 0;
+    margin: auto;
+    width: 700px;
+    margin-top: 300px;
+
+    & thead{
+        background-color: rgb(125, 125, 125);
+    }
+
+    & tbody{
+        background-color: rgba(190, 180, 180, 0.393);
+    }
+    & th{
+        border: 1px solid black;
+    }
+    & td{
+        border: 1px solid black; 
+        text-align: center;
+    }
+   
+}
+.no{
+    height: 60px;
+}
+.table:hover{
+    background-color: rgba(121, 117, 117, 0.393);
+}
+
